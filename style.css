@@ -124,7 +124,7 @@ header {
 }
 
 .header-right img {
-  width: 600px;
+  width: 100%;
 }
 
 .company-header {
@@ -133,7 +133,7 @@ header {
   margin-bottom: 20px;
 }
 .logos {
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 .logos img {
@@ -231,16 +231,14 @@ header {
   color: white;
   margin-top: 30px;
 }
-
-.footer-container{
-align-items: start;
-justify-content: space-between;
-}
 footer{
-padding-block: 80px;
-background-color: #ebf2fa;
-align-items: start;
-justify-content: space-between;
+  padding-block: 80px;
+  background-color: #ebf2fa;
+ 
+}
+.footer-container{
+     align-items:start ;
+  justify-content: space-between;
 }
 .link-column{
   flex-direction: column;
@@ -254,13 +252,23 @@ justify-content: space-between;
   color: var(--accent-color-dark);
 }
 .subfooter{
-background-color: #b9cde4;
+   background-color: #b9cde4;
+   height: 70px;
+   
 }
+
 .subfooter-container{
   justify-content: center;
-  gap: 20px;
   align-items: center;
-  padding: var(--padding-inline-section);
+  padding-top: 20px;
+}
+.subfooter-container a{
+  padding-left: 20px;
+  color: rgba(0, 0, 0, 0.73);
+}
+.subfooter-container a i{
+  font-size: 1.5em;
+  margin: 0px 20px;
 }
 
 .spacer {
